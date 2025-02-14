@@ -1,0 +1,88 @@
+.seminar-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start; /* Выравнивание по верхнему краю */
+  gap: 20px; /* Расстояние между изображением и текстом */
+}
+
+.seminar-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  object-fit: cover; /* Чтобы изображение не искажалось */
+}
+
+.seminar-item .content {
+  flex: 1; /* Занимает оставшееся пространство */
+}
+
+.seminar-item h2 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.seminar-item p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.seminar-item .details {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.seminar-item .actions {
+  margin-top: 15px;
+}
+
+.seminar-item button {
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.seminar-item button.delete {
+  background-color: #dc3545; 
+}
+
+.seminar-item button.delete:hover {
+  background-color: #c82333; 
+}
+
+.seminar-item button.edit {
+  background-color: #007bff; 
+}
+
+.seminar-item button.edit:hover {
+  background-color: #0056b3; 
+}
+
+@media (max-width: 768px) {
+  .seminar-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .seminar-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .seminar-item .actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+}

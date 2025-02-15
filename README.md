@@ -12,8 +12,9 @@ This is a React application for managing seminars. It uses `json-server` as a mo
 
 1. Clone the repository.
 2. Run `npm install` to install dependencies.
-3. Start the server with `npm run server`.
-4. Start the app with `npm start`.
+3. You need to `npm install web-vitals`.
+4. Start the server with `npm run server`.
+5. Start the app with `npm start`.
 
 
 ![image](https://github.com/user-attachments/assets/ae4d6e5c-9c97-4619-80d3-2bdacf17a88d)

@@ -14,3 +14,10 @@ This is a React application for managing seminars. It uses `json-server` as a mo
 2. Run `npm install` to install dependencies.
 3. Start the server with `npm run server`.
 4. Start the app with `npm start`.
+
+
+![image](https://github.com/user-attachments/assets/ae4d6e5c-9c97-4619-80d3-2bdacf17a88d)
+
+
+
+![image](https://github.com/user-attachments/assets/93dda222-d5ff-47ab-a54e-9b540b7a1ae1)

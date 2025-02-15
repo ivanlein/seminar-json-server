@@ -17,6 +17,7 @@ This is a React application for managing seminars. It uses `json-server` as a mo
 5. Start the app with `npm start`.
 
 
+
 ![image](https://github.com/user-attachments/assets/ae4d6e5c-9c97-4619-80d3-2bdacf17a88d)
 
 

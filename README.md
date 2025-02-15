@@ -5,7 +5,7 @@ This is a React application for managing seminars. It uses `json-server` as a mo
 ## Features
 
 - View a list of seminars.
-- Add, edit, and delete seminars.
+- Edit, and delete seminars.
 - Responsive design.
 
 ## Installation
